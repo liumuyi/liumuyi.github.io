@@ -1,0 +1,27 @@
+name: "Home"
+navbar:
+  logo:
+    image: bg.jpg
+    
+  title: "Muyi Liu"
+  
+  right:
+    - text: "Home"
+      href: index.html
+
+    - text: "CV"
+      href: cv.pdf
+
+    - text: "Examples"
+      href: examples.html
+    
+    - text: "Video"
+      href: video.html
+
+    - text: "About"
+      href: about.html	
+
+output:
+  html_document:
+    theme: cerulean
+    css: custom.css
