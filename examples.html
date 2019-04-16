@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title></title>
+
+<script src="examples_files/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="examples_files/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="examples_files/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="examples_files/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="examples_files/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="examples_files/navigation-1.1/tabsets.js"></script>
+<link href="examples_files/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="examples_files/highlightjs-9.12.0/highlight.js"></script>
+<link href="examples_files/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
+<script src="examples_files/pagedtable-1.1/js/pagedtable.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="custom.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<p></p>
+<ul>
+<li>FSM and noncoding-RNA <a href="./e1.pdf">example</a>.</li>
+</ul>
+<p>Frequent Subgraph Mining Algorithm, NP-Hard, aims to identify the maximum frequent subgraphs shared among given graphs. FSM algorithm might take hundreds of hours to identify ten edges maximum frequent subgraph. My proposed FSM algorithm can identify same frequent subgraph within 300 seconds, in 300 trials, in biological, synthetic, chemical graphs.</p>
+
+<p>Next generation sequencing projects identify large number of novel ncRNAs, same scale with annotated genes, little sequence similarity against funcional annotated genome. Due to the RNA evolution flexibility, noncoding RNAs with less sequence simialrity share same function, while their structures are close. I developed algorithm and pipeline to identify these structural similarity, which indicateds those funcitonal noncoding RNAs share less than 10% sequence similarity, but more than 50% structure similarity. </p>
+<p><img src="1.png" style="width:593px; height:232px; float:middle; margin: 20px 80px";" alt="Lot of code"; ALIGN=”middle”; ></p>
+
+<p><img src="2.png" style="width:531px; height:445px; float:middle; margin: 20px 80px";" alt="Lot of code"; ALIGN=”middle”; ></p>
+
+<p></p>
+<ul>
+<li>A single cell RNA-Seq analysis <a href="./example2.html">example</a>.</li>
+</ul>
+<p>Scientists use to analyze bulk RNA-Seq which is a gene expression combination of Ex. B, T, NK, progenitor cells, stem cells, etc. Single cell RNA-Seq is cutting edge RNA-Seq techology to identify gene expression within cells. However, cell type classification is non-trivial. This example shows an unsupervised learning cell type classification and differential expression analysis. Please let me know if you have interest on supervised learning cell type classification. </p>
+<p><img src="e2.png" style="width:768px; height:460px; float:middle; margin: 20px 80px";" alt="Lot of code"; ALIGN=”middle”; > </p>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

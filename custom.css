@@ -1,0 +1,18 @@
+
+
+body{
+    font: 16px arial, sans-serif;
+    color:black ;
+    margin-left: 0px;
+    padding-left: 50px;
+text-align: justify;
+    background-image: url('');
+    /* Set background image to fixed (don't scroll along with the page) */
+    background-attachment: fixed;
+    background-position: right top;
+    /* Set the background image to no repeat */
+    background-repeat: no-repeat;
+    /* Scale the background image to be as large as possible */
+    background-size: cover;
+}
+
