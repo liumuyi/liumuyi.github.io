@@ -12,7 +12,7 @@ navbar:
     - text: "CV"
       href: cv.pdf
 
-    - text: "Examples"
+    - text: "Projects"
       href: examples.html
     
     - text: "Video"
