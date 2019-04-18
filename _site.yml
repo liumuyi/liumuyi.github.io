@@ -9,13 +9,13 @@ navbar:
     - text: "Home"
       href: index.html
 
-    - text: "CV"
-      href: cv.pdf
-
     - text: "Projects"
       href: examples.html
+
+    - text: "CV"
+      href: cv.pdf
     
-    - text: "Video"
+    - text: "Vlog"
       href: video.html
 
     - text: "About"
