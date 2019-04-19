@@ -15,7 +15,7 @@ navbar:
     - text: "CV"
       href: cv.pdf
     
-    - text: "Vlog"
+    - text: "VLOG"
       href: video.html
 
     - text: "About"
