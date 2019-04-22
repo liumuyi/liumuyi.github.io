@@ -2,6 +2,7 @@
 title: ''
 output:
   html_document:
+    theme: cerulean
     self_contained: no
     css: custom.css
     df_print: paged
@@ -9,7 +10,7 @@ output:
 
 \newline\newline\newline\newline\newline
 
-* Marvic Pro
+* Mavic Pro
     * Indiana
     * M City, W Lafayette
 
