@@ -1,6 +1,3 @@
-@-ms-viewport{
-  width: device-width;
-}
 
 body{
     font: 16px arial, sans-serif;
@@ -17,4 +14,7 @@ text-align: justify;
     /* Scale the background image to be as large as possible */
     background-size: cover;
 }
-
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
