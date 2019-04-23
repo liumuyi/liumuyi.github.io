@@ -1,4 +1,6 @@
-
+@-ms-viewport{
+  width: device-width;
+}
 
 body{
     font: 16px arial, sans-serif;
